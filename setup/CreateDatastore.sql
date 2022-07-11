@@ -13,7 +13,7 @@ CREATE TABLE books
   
   CREATE TABLE users
   ( 
-     username  VARCHAR(100) PRIMARY KEY, 
+     username  VARCHAR(1000) PRIMARY KEY, 
      password  VARCHAR(100) NOT NULL, 
      firstname VARCHAR(100) NOT NULL, 
      lastname  VARCHAR(100) NOT NULL, 
